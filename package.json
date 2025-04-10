@@ -1,0 +1,16 @@
+{
+  "name": "directus-starter",
+  "version": "1.0.0",
+  "description": "Directus template for railway app",
+  "scripts": {
+    "start": "npx directus bootstrap && npx directus start"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "directus": "11.0.2",
+    "pg": "8.12.0",
+    "redis": "4.7.0"
+  }
+}
